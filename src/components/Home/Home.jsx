@@ -5,7 +5,7 @@ import { HueSaturation, EffectComposer } from '@react-three/postprocessing';
 import logo from '../../assets/logo.png';
 export default function Home() {
     return (
-        <div id='home' className='h-[50vh] md:h-[90vh] w-full relative flex items-center justify-center text-white'>
+        <div id='home' className='h-full md:h-[90vh] w-full relative flex items-center justify-center text-white'>
         
             <Canvas camera={{ fov: 50 }} className='absolute top-0 w-full'>
                 <Environment files={['https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/4k/rosendal_plains_2_4k.hdr']} />

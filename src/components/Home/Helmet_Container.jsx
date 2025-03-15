@@ -32,7 +32,7 @@ export default function Helmet_Container() {
 
     return (
         <group>
-            <primitive object={model} ref={targetRef} scale={(viewport.width > viewport.height) ? (viewport.width / 2 * 0.3) : (viewport.width / 2 * 0.6)} />
+            <primitive object={model} ref={targetRef} scale={(viewport.width > viewport.height) ? (viewport.width / 2 * 0.3) : (viewport.width / 2 * 0.8)} />
         </group>
     );
 }
